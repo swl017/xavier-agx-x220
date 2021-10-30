@@ -2,6 +2,9 @@
 
 # Native installation: Cannot installed into venv fully because you can't install opencv 3.2(for tensorflow 1.15.4) using pip
 
+# Upgrade pip3 at least upto 21.0
+# pip3 install --upgrade pip
+
 export JP_VERSION=45 # Jetpack 4.5
 export TF_VERSION=1.15.4 # See https://docs.nvidia.com/deeplearning/frameworks/install-tf-jetson-platform/index.html#install
 export NV_VERSION=20.12 # See https://docs.nvidia.com/deeplearning/frameworks/install-tf-jetson-platform-release-notes/tf-jetson-rel.html#tf-jetson-rel
